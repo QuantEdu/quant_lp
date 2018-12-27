@@ -84,7 +84,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgres://postgres:oleinik@localhost:5432/postgres', conn_max_age=600)
+DATABASES['default'] = dj_database_url.parse('postgres://postgres:oleinik@localhost:5432/postgres1', conn_max_age=600)
 
 
 # Password validation
